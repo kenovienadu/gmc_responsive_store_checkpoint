@@ -15,20 +15,21 @@
 
 </head>
 
-<body>
+<body class="w-full">
   <!-- Header Section -->
-  <header class="px-10 py-3 flex justify-between items-center">
-    <img src="assets/img/fresheats-logo-dark.svg" class="w-[180px]" alt="">
+  <header class="px-4 md:px-10 py-3 flex justify-between items-center">
+    <img src="assets/img/fresheats-logo-dark.svg" class="w-[100px] md:w-[180px]" alt="">
+
     <div class="inline-flex items-center gap-[50px]">
-      <div class="text-gray-600 text-xl">
+      <div class="text-gray-600 text-xl hidden md-inline">
         <i class="fa fa-search" aria-hidden="true"></i>
       </div>
-      <div class="text-gray-600 text-xl">
+      <div class="text-gray-600 text-xl hidden md-inline">
         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
       </div>
-      <button class="bg-red-600 text-white py-3 px-4 uppercase font-medium">
-        <span class="pr-3">Order Now</span>
-        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+      <button class="bg-red-600 text-white p-2 md:py-3 md:px-4 uppercase font-medium text-xs md:text-base">
+        <span class="md:pr-3">Order Now</span>
+        <i class="fa fa-long-arrow-right hidden md:inline" aria-hidden="true"></i>
       </button>
     </div>
   </header>
