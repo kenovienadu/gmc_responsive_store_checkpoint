@@ -9,3 +9,7 @@ footer {
 .br-50 {
   border-radius: 50%;
 }
+
+button {
+  border-radius: 5px;
+}
