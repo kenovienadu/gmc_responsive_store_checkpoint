@@ -1,0 +1,11 @@
+footer {
+  min-height: 300px;
+}
+
+.bg-dark {
+  background-color: #08121C;
+}
+
+.br-50 {
+  border-radius: 50%;
+}
