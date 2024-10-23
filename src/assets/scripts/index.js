@@ -116,9 +116,9 @@ const loadProducts = () => {
           <div class="image-wrapper">
             <img src="${product.image}" class="w-full h-[340px] lg:h-[250px] object-cover" alt="">
           </div>
-          
-          <div class="p-8 bg-dark text-gray-100">
-            <h3 class="text-2xl capitalize">${product.name}</h3>
+
+          <div class="p-8 bg-dark text-gray-100 h-[250px]">
+            <h3 class="text-xl capitalize font-medium">${product.name}</h3>
             <div class="font-light">${product.price}</div>
 
             <p class="text-xs mt-3 mb-5">
